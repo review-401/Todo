@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import App from './app.js';
 
-class Main extends React.Component {
-  render() {
-      console.log('amman')
-    return <App />;
-  }
+function Main() {
+  return(
+    <App />
+  )
+    
+  
 }
 
 const rootElement = document.getElementById('root');

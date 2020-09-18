@@ -1,10 +1,14 @@
-import React from 'react'
-import List from './componants/list'
+import React from 'react';
 
-export default function App() {
+import ToDo from './components/todo/todo-connected';
+
+ export default function App () {
+ 
     return (
-        <div>
-            <List/>
-        </div>
-    )
+      <>
+        <ToDo />
+      </>
+    );
+
 }
+

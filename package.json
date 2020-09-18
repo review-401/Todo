@@ -1,32 +1,24 @@
 {
-  "name": "Todo",
+  "name": "demo-context-api",
   "version": "1.0.0",
-  "description": "work on todo app using mern tool",
+  "description": "",
+  "keywords": [],
   "main": "src/index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-jsonschema-form": "1.8.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "uuid": "8.1.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/review-401/Todo.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/review-401/Todo/issues"
-  },
-  "homepage": "https://github.com/review-401/Todo#readme",
-  "dependencies": {
-    "bootstrap": "^4.5.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.3"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
